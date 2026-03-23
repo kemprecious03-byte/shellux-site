@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shellux Code & Coatings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* This is our custom "Paint" for the website */
+        :root { --shellux-navy: #101357; --shellux-blue: #00a0a0; }
+        .hero {  background: linear-gradient(rgba(16, 19, 87, 0.8), rgba(16, 19, 87, 0.8)), url('images/hero-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    padding: 120px 0; 
+}
+
+        .btn-shellux { background: var(--shellux-blue); color: white; border-radius: 50px; padding: 12px 30px; }
+        .section-title { color: var(--shellux-navy); font-weight: 700; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">SHELLUX <span style="color:var(--shellux-blue)">CODE & COATINGS</span></a>
+            <a href="https://wa.me/YOUR_NUMBER" class="btn btn-outline-dark btn-sm">Contact Us</a>
+        </div>
+    </nav>
+
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Precision Painting. <br>Data-Driven Results.</h1>
+            <p class="lead mb-4">We don't just paint; we calculate. Get the perfect finish for your space.</p>
+            <a href="#estimator" class="btn btn-shellux btn-lg">Explore the Estimator</a>
+        </div>
+    </header>
+
+<section id="work" class="py-5">
+    <div class="container text-center">
+        <h2 class="section-title mb-4">Our Recent Projects</h2>
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/project1.jpg.png" class="card-img-top" alt="Shellux Project">
+                    <div class="card-body">
+                        <p class="card-text fw-bold">Luxury Interior Finish</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/project2.jpg.png" class="card-img-top" alt="Shellux Project">
+                    <div class="card-body">
+                        <p class="card-text fw-bold">Premium Interior Satin Finish</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/project3.jpg.png" class="card-img-top" alt="Shellux Project">
+                    <div class="card-body">
+                        <p class="card-text fw-bold">Commercial Texture Work</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-5">Why Choose Shellux?</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3>No Guesswork</h3>
+                    <p>Our algorithms calculate exact paint volumes, saving you money on wasted materials.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Modern Finishes</h3>
+                    <p>From Silk to Matte, we specialize in the high-end coatings that define 2026 interiors.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Transparent Pricing</h3>
+                    <p>You get a digital quote that explains every Kobo spent. No "hidden fees."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="estimator" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">The Shellux Estimator</h2>
+            <p class="mb-4">This tool is currently being optimized for your experience.</p>
+            <div class="progress mb-4" style="height: 25px;">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 85%">85% Optimized</div>
+            </div>
+            <p>Need a quote right now? Click the button below.</p>
+            <a href="https://wa.me/2349025515409" class="btn btn-shellux">Chat with Charles</a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
